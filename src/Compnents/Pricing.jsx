@@ -3,7 +3,7 @@ import React from 'react'
 
 export function Pricing() {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto max-w-7xl bg-[#F0F8FF]">
       <div className="lg:grid lg:grid-cols-12 lg:gap-x-6">
         <div className="px-4 py-10 lg:col-span-5 lg:px-0">
           <span className="mb-8 inline-block rounded-full border p-1 px-3 text-xs font-semibold">

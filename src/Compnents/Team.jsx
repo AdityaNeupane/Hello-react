@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Team() {
   return (
-    <div className="mx-auto max-w-7xl px-2 lg:px-0">
+    <div className="mx-auto max-w-7xl px-2 lg:px-0 bg-[#F0F8FF]">
       <div className="mx-auto max-w-3xl md:text-center">
         <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">
           People who made it successful

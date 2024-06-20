@@ -3,7 +3,7 @@ import { Copy, ArrowRight } from 'lucide-react'
 
 export function Features() {
   return (
-    <div className="px-2 py-2 md:px-6 md:py-10">
+    <div className="px-2 py-2 md:px-6 md:py-10 bg-[#F0F8FF]">
       <h1 className="text-2xl font-bold capitalize text-black lg:text-3xl">
         DevUI Makes Your Work Easier
       </h1>

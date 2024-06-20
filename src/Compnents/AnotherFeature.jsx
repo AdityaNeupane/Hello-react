@@ -3,7 +3,7 @@ import { DollarSign, Zap, Moon, Filter } from 'lucide-react'
 
 export function AnotherFeature() {
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 bg-[#F0F8FF]">
       <div className="mx-auto max-w-xl text-center">
         <div className="mx-auto inline-flex rounded-full bg-gray-100 px-4 py-1.5">
           <p className="text-xs font-semibold uppercase tracking-widest text-black">

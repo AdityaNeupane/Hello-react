@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Testimonial() {
   return (
-    <section className="px-2 py-10 md:px-0">
+    <section className="px-2 py-10 md:px-0 bg-[#F0F8FF]">
       <figure className="mx-auto max-w-2xl">
         <h1 className="mb-4 text-4xl font-semibold text-black">What developers are saying ?</h1>
         <blockquote className="mt-10 text-xl text-gray-900">
