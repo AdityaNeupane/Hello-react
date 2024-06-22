@@ -11,6 +11,7 @@ import { Team } from './Compnents/Team'
 import { Review } from './Compnents/Review'
 import { Testimonial } from './Compnents/Testimonial'
 import { Footer } from './Compnents/Footer'
+import Herosection from './Compnents/Herosection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,14 +19,27 @@ function App() {
   return (
     <>
        <Navbar/>
+       <br></br>
+      
+      <Herosection/>
+      <br></br>
+      
        <Pricing/>
-       <Welcome/>
+       <br></br>
+       
        <Features/>
+       <br></br>
        <AnotherFeature/>
-       <CTA/>
+       <br></br>
        <Team/>
+       <br></br>
+       <CTA/>
+       <br></br>
+       <Welcome/>
+       <br></br>
        <Testimonial/>
-       <Review/>
+       <br></br>
+       {/* <Review/> */}
        <Footer/>
     </>
   )
