@@ -2,16 +2,19 @@ import { useState } from 'react'
  
 import './App.css'
 import { Navbar } from './Compnents/Navbar'
-import { Welcome } from './Compnents/Welcome'
+import { FAQ } from './Compnents/FAQ'
 import { Pricing } from './Compnents/Pricing'
-import { Features } from './Compnents/Features'
-import { AnotherFeature } from './Compnents/AnotherFeature'
+ 
+import { Feature } from './Compnents/Feature'
 import { CTA } from './Compnents/CTA'
-import { Team } from './Compnents/Team'
-import { Review } from './Compnents/Review'
+ 
+ 
 import { Testimonial } from './Compnents/Testimonial'
 import { Footer } from './Compnents/Footer'
 import Herosection from './Compnents/Herosection'
+import { About } from './Compnents/About'
+import { Blog } from './Compnents/Blog'
+import { Contact } from './Compnents/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,27 +22,35 @@ function App() {
   return (
     <>
        <Navbar/>
-       <br></br>
-      
+       
       <Herosection/>
-      <br></br>
+      
     
+       <About/>
+       <br></br>
+
+       <Feature/>
+       <br></br>
+ 
+
+       <Blog/>
+       <br></br>
+
+       <Contact/>
+       <br></br>
+
+       <FAQ/>
+       <br></br>
+
        <Pricing/>
        <br></br>
-       
-       <Features/>
-       <br></br>
-       <AnotherFeature/>
-       <br></br>
-       <Team/>
-       <br></br>
-       <CTA/>
-       <br></br>
-       <Welcome/>
-       <br></br>
+
        <Testimonial/>
        <br></br>
-       {/* <Review/> */}
+
+       <CTA/>
+       <br></br>
+        
        <Footer/>
     </>
   )

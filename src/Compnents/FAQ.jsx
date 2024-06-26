@@ -1,6 +1,6 @@
 import React from 'react'
 
-export function Welcome() {
+export function FAQ() {
   return (
     <section className="mx-auto max-w-7xl px-2 py-10 md:px-0 bg-[#F0F8FF]">
       <div>
