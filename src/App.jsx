@@ -23,7 +23,7 @@ function App() {
       
       <Herosection/>
       <br></br>
-      
+    
        <Pricing/>
        <br></br>
        
